@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:my_app/screens/home_screen.dart';
+import 'package:my_app/screens/shimmer_screen.dart';
 
 
 void main() async  {
@@ -12,7 +13,8 @@ void main() async  {
       path: 'lib/assets/translations',
       fallbackLocale: const Locale('en', 'US'),
       child:const HomeScreen() ,
-));
+    ));
+// const ShimmerScreen());
 }
 
 
